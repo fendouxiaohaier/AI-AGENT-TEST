@@ -48,7 +48,7 @@ try {
 
   const result = await parser.parse(fullContent);
 
-  console.log("\n🎉 解析结果:", result);
+  console.log("\n🎉 解析结果:", result, chunkCount);
 
   // const result = await parser.parse(response.content);
 } catch (error) {
